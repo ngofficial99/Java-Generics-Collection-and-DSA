@@ -1,0 +1,5 @@
+package com.collection.generics.box;
+
+public class Box {
+
+}
