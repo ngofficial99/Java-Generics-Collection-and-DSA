@@ -2,6 +2,8 @@ package com.collection.generics;
 
 import java.util.ArrayList;
 
+import com.collection.generics.box.Box;
+
 public class main {
 	
 	public static void main(String[] args) {
@@ -70,20 +72,7 @@ public class main {
 		
     	Integer i = box1.getValue();
     	System.out.println(i);
-    	
-    	// SO now we are not getting any runtime error neither do we have to type cast anything
 		
-    	
-    	// We can also add multiple parameters in a single class's Object to  do that I have created a new class called Pairs 
-    	// I have created Pairs Class now lets create an object from it
-    	Pairs<String, Integer> pair = new Pairs<>("Age", 25);
-    	
-    	System.out.println(pair.getKey());
-    	System.out.println(pair.getValue());
-    	// the naming convention goes like T:Type, E:Element, K: Key, V: Value, N: Number
-    	
-    	
-    	
 	}
 
 }

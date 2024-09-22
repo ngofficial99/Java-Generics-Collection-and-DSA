@@ -1,0 +1,5 @@
+package com.collection.generics;
+
+public class Container {
+
+}

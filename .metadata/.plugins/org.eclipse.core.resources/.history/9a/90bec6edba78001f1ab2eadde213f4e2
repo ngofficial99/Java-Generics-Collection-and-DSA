@@ -5,9 +5,9 @@ public class Our_GenericList<T> {
 	private int size;
 	
 
-//	public OurGenericList() {
-//		size = 0;
-//		items = (T[])new Object[100];
-//	}
+	public OurGenericList() {
+		size = 0;
+		items = (T[])new Object[100];
+	}
 
 }
