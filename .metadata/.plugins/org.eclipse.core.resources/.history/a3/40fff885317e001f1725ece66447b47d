@@ -1,0 +1,13 @@
+package com.collection.generics;
+
+// Once we have an interface we can make this interface generic by adding the <T>
+public class Container<T> {
+	
+	void add(T item) {
+	}
+	
+	T get() {
+		return null;
+	}
+
+}

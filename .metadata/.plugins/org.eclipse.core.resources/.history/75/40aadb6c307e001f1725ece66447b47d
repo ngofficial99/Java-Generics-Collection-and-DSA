@@ -4,15 +4,16 @@ public class StringContainer<T> implements Container<T> {
 
 	// We have created a class that is implementing the container Interaface
 	
-	private T item;
+	private String item;
 	
-	public void add(T item) {
+	@Override
+	public void add(String item) {
 		this.item = item;
 		
 	}
 
-
-	public T get() {
+	@Override
+	public String get() {
 		// TODO Auto-generated method stub
 		return item;
 	}

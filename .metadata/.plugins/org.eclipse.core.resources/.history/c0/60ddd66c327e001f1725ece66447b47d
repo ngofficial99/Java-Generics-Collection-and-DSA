@@ -1,9 +1,6 @@
 package com.collection.generics;
 
-public class Box<T extends Number> {
-	
-	// Now we can also add conditions to a particular parameter which will either extend a class or implement an interface
-	// In this class we have extended the Box class T parameter to Number class why because number is a superclass of all int float double etc
+public class Box<T> {
 
 	private T value;
 	

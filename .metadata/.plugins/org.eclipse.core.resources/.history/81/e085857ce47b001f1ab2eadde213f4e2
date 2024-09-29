@@ -28,7 +28,7 @@ public class main {
 		Integer integer = (Integer) list.get(1);
 		//String str1 = (String) list.get(1);
 		
-		//Now lets say If i try to cast an Integer to a String variable then we will get an runtime error
+		//Now lets say If i try to cast an Interger to a String variable then we will get an runtime error
 		
 		// So this is an issue with ArrayList, It is not type safe,
 		//An d we have to manually cast the objects 
@@ -64,12 +64,13 @@ public class main {
 		// WE will create a new Object from the box class
 		
 		Box<Integer> box1 = new Box<>();
-		// Now this box object is of integer type
-		//box1.setValue("Nishant"); // If i try to set a String as its value it will throw error on the complile time and not on the run time 
+		// Now this box object is of interger type
+		//box1.setValue("Nishanty"); // If i try to set a String as its value it will throw error on the complile time and not on the run time 
     	box1.setValue(123);
 		
     	Integer i = box1.getValue();
     	System.out.println(i);
+    	
     	// SO now we are not getting any runtime error neither do we have to type cast anything
 		
     	
@@ -81,8 +82,7 @@ public class main {
     	System.out.println(pair.getValue());
     	// the naming convention goes like T:Type, E:Element, K: Key, V: Value, N: Number
     	
-    	// Now just like we can turn a class into Generic we can also turn an interface into generic type
-    	// Lets create a Container interface
+    	
     	
 	}
 
