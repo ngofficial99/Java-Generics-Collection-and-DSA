@@ -1,0 +1,42 @@
+package com.collections.generic.enums;
+
+import java.util.Iterator;
+
+enum Day{
+	SUNDAY,MONDAY,TUEDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY
+}
+
+public class Test_Enum {
+	
+	// How to create Generic Methods
+	
+	public <T> void methodnName( T paramater) {
+		// This is the Syntax to create a generic method
+	}
+
+	// Now if I want a function with a particular type of array or array list which is generic lets see how we can do that
+	public <T> void printArray( T[] array) {
+		 for (T element : array) {
+			System.out.println(element + " ");
+		}
+
+	}
+	
+	public static void main(String[] args) {
+		Day day = Day.MONDAY;
+		
+		// this is how we can use Enums so that we only take a value from the given options
+		// Now lets check Generic Constructor
+		
+		// Now we can create an object of Test class and use the print array method's object
+		
+		Test_Enum  test = new Test_Enum();
+		
+		Integer[] intarray = {1,2,3,4,5};
+		String[] strarray = {"Nishant","Gupta"};
+		
+ 		test.printArray(intarray);
+ 		test.printArray(strarray);
+	}
+	
+}

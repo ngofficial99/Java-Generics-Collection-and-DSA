@@ -85,9 +85,7 @@ public class Test_Enum {
 		
 		// lets call the operations method which is using the enums
 		double res1 = Operation.ADD.apply(1000,234);
-		double res2 = Operation.MULTIPLY.apply(2344, 100);
 		System.out.println(res1);
-		System.out.println(res2);
 		
 		
 		
