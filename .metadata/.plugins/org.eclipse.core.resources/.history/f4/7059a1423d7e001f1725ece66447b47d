@@ -48,8 +48,7 @@ public class main {
 		
 		//Now we have created the Box object with getter and setter now lets try to access
 		
-		//Refer Box.java because we have extended the parameter for Box class to Number super class that is why we can only add datatype as a number and not a string
-		Box<Integer> box = new Box<Integer>();
+		Box box = new Box();
 		
 		box.setValue(1);
 		//After setting the value inside the box class we will try to store the value of box in a variable and that variable will require cast 

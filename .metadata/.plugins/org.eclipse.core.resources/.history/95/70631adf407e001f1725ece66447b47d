@@ -1,0 +1,61 @@
+package com.collection.generics;
+
+interface Printable {
+	void print();
+}
+
+class MyNumber extends Number implements Printable {
+	
+	private final int value;
+	
+	public MyNumber(int value ) {
+		this.value = value;
+	}
+	
+	@Override
+	public void print() {
+		System.out.println("MyNumber :" + value);
+	}
+
+	@Override
+	public int intValue() {
+		// TODO Auto-generated method stub
+		return value;
+	}
+
+	@Override
+	public long longValue() {
+		// TODO Auto-generated method stub
+		return value;
+	}
+
+	@Override
+	public float floatValue() {
+		// TODO Auto-generated method stub
+		return value;
+	}
+
+	@Override
+	public double doubleValue() {
+		// TODO Auto-generated method stub
+		return value;
+	}
+	
+	
+}
+// whenever we are writing multiple boundation on a parameter we have to mention the class first and then the interface  
+class Boxx<T extends Number & Printable> {
+	
+
+	
+	
+}
+
+public class Test {
+	
+	public static void main(String[] args) {
+		MyNumber myNumber = new MyNumber(12);
+		Boxx<MyNumber> box = new Boxx<>();
+	}
+	
+}
