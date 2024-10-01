@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.collection.generics.box.Box"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.collection.generics.Pairs"/>
     <fullyQualifiedTypeName name="com.collection.generics.Container"/>
+    <fullyQualifiedTypeName name="com.collection.generics.Boxx"/>
+    <fullyQualifiedTypeName name="com.collection.generics.MyNumber"/>
+    <fullyQualifiedTypeName name="com.collection.generics.main"/>
+    <fullyQualifiedTypeName name="com.collections.generic.enums.Day"/>
+    <fullyQualifiedTypeName name="com.collections.generic.enums.Box2"/>
+    <fullyQualifiedTypeName name="com.collections.generic.enums.Test_Enum"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.AssertionError"/>
+    <fullyQualifiedTypeName name="com.collections.generic.enums.Operation"/>
+    <fullyQualifiedTypeName name="com.collection.genrics.wildcard.main"/>
 </qualifiedTypeNameHistroy>
