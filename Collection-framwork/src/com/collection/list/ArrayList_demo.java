@@ -22,13 +22,22 @@ public class ArrayList_demo {
 		alist.add(11);
 		alist.add(22);
 		alist.add(33);
-		alist.add(44);
+		alist.add(44);	
+		
+		// in-case we want to modify an element of the arraylist at a particular index
+		// i.e index 1, replace 22 to 23
+		
+		alist.set(1, 23);
+		
 		
 		
 		// To print an array list we can use a for loop
 		for (Integer integer : alist) {
 			System.out.println(integer);
 		}
+		
+		// We can also directly print an Arraylist, it will be printed in form of an array
+		System.out.println(alist);
 		
 	}
 }
