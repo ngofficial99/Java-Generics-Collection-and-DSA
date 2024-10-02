@@ -39,5 +39,15 @@ public class ArrayList_demo {
 		// We can also directly print an Arraylist, it will be printed in form of an array
 		System.out.println(alist);
 		
+		// Creating a new ArrayList, but this ArrayList will be created from the previous arraylist 
+		// ArrayList it self is a class that takes a constructor so we can pass the previous array list while creating the new arraylist
+		
+		List<Integer> list2 = new ArrayList<>(alist); 
+		for(Integer element : list2) {
+			System.out.println(element);
+		}
+		
+		// we can see that the new arraylist has all the elements of the prvious arraylist
+		
 	}
 }
